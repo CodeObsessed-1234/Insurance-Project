@@ -51,6 +51,7 @@ public class Admin extends BusinessLogic {
       }
 
     } else {
+      System.out.println("Error Occured because you insert Wrong Info");
       return "Error Occured";
     }
 
